@@ -7,7 +7,7 @@ aliases:
 ## Dettagli
 Sono degli object javascript 
 
-Definiamo quello che si chiama un "literal", ossia una stringa che può assumere valori ben definiti come in questo caso:
+Definiamo quello che si chiama un [literal](gls/literal) ossia una stringa che può assumere valori ben definiti come in questo caso:
 ```typescript
 type Food = "Carrot" | "Steak" | "Orange";
 ```

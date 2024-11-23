@@ -38,4 +38,23 @@ class ExampleRepo implements IRepo<> {
 		}
 	}
 }
+```
 
+### Upsert
+Se il database sottostante supporta l'operazione di upsert è possibile semplificare ulteriormente il metodo save.
+Upsert è la fusione di insert e update, infatti se l'entità non esiste verrà creata, altrimenti verrà aggiornata.
+
+```typescript
+class ExampleRepo implements IRepo<> {
+	/* ... */
+
+	async save(example: Example): Promise<void> {
+		const rawObj = ExampleMapper.toPersistence(example);
+
+		if (example.isDeleted) {
+			this.ExampleModel.deleteOne(rawObj._id);
+		} else {
+			this.ExampleModel.updateOne(rawObj._id, rawObj, { upsert: true });
+		}
+	}
+}

@@ -4,7 +4,7 @@ title: React Context Guide
 
 # Introduzione al Context di React
 
-Il [Context](glossary/React%20Context.md) di React è uno strumento potente che permette di passare dati attraverso l'albero dei componenti senza dover passare esplicitamente le props a ogni livello. È utile per condividere dati che sono considerati "globali" per un albero di componenti, come l'utente autenticato, il tema o la lingua preferita.
+Il Context di React è uno strumento potente che permette di passare dati attraverso l'albero dei componenti senza dover passare esplicitamente le props a ogni livello. È utile per condividere dati che sono considerati "globali" per un albero di componenti, come l'utente autenticato, il tema o la lingua preferita.
 
 ## Creare un Context
 

@@ -1,3 +1,3 @@
 ---
-title: Architetture
+title: Architettura
 ---

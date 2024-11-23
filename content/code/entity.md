@@ -6,14 +6,7 @@ La "logica di dominio" in ambito Domain-Driven Design (DDD) si riferisce alla pa
 
 ## Identifier
 
-Ogni Entità è definita da un identificatore univoco.
-```typescript
-interface IIdentifier<T> {
-	equals(id: IIdentifier<T>): boolean;
-	readonly value: T;
-	toString(): string;
-}
-```
+Ogni Entità è definita da un identificatore univoco chiamato [Identifier](code/identifier)
 
 ## Entità
 

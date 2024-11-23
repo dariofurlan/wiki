@@ -4,12 +4,12 @@
   "private": true,
   "version": "4.4.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "dario furlan <dario@dariofurlan.com>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://efesto.cloud/wiki/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/dariofurlan/wiki.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",

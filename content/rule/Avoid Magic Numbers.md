@@ -2,11 +2,11 @@
 title: Avoid Magic Numbers
 tags: code-quality-principles
 ---
-Replace literal values with named constants for clarity.
+Replace [literal](gls/literal) values with named constants for clarity.
 
 ## Description
 
-Magic numbers are literal values that are used directly in code without explanation. They are often difficult to understand and can lead to bugs when they are changed in one place but not in others. To avoid this, replace magic numbers with named constants that describe their purpose [^1].
+Magic numbers are [literal](gls/literal) values that are used directly in code without explanation. They are often difficult to understand and can lead to bugs when they are changed in one place but not in others. To avoid this, replace magic numbers with named constants that describe their purpose [^1].
 
 
 ## Examples
