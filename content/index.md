@@ -15,11 +15,3 @@ export default async function ciao(): Promise<void> {
 ```
 
 quick math
-
-$$
-\begin{align*}
-    \hat{x} &= \frac{1}{n} \sum_{i=1}^{n} x_i \\
-    \hat{y} &=  y_i \\
-\end{align*}
-
-$$

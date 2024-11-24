@@ -12,9 +12,8 @@ const config: QuartzConfig = {
     pageTitleSuffix: " - Wiki",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,    
+    // { provider: "plausible" },
     locale: "it-IT",
     baseUrl: "efesto.cloud",
     ignorePatterns: ["private", "templates", ".obsidian"],
@@ -72,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      // Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
